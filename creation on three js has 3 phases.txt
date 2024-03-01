@@ -1,0 +1,9 @@
+creation on three js has 3 phases
+	*the first one is the creation of the geometry
+	*the creation of material
+	*cover the geometry with the material
+
+const boxGeometry = new THREE.BoxGeometry();
+const boxMaterial = new THREE.MeshBasicMaterial({color: 'h'})
+const box = new THREE.Mesh(boxgeometry,boxmaterial)
+	
